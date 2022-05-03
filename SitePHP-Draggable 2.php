@@ -21,13 +21,13 @@
 <body>
  
 <div id="draggable" class="ui-widget-content">
-    <p>	
-		<?php
-			for ( $it = 0 ; $it < 20 ; $it++) {
-			print( "<span class=\"linha\">linha número " . $it . "</span><br />");   
-			}
-		?>
-	</p>
+<p>	
+	<?php
+		for ( $it = 0 ; $it < 20 ; $it++) {
+		print( "<span class=\"linha\">linha número " . $it . "</span><br />");   
+		}
+	?>
+</p>
 </div>
 	
 <div id="draggable2" class="ui-widget-content">
