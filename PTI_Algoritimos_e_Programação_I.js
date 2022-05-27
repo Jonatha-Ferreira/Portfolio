@@ -1,14 +1,15 @@
 function funcao_c(){
 // Prompt principal com regra simples de controle de valores.
-  var gasolina = prompt('Digite o valor da gasolina:')
+var gasolina = prompt('Digite o valor da gasolina:')
   if (gasolina >= 1)  
 var alcool = prompt('Digite o valor do álcool:')
   if (alcool >= 1)
 var divisao = parseFloat(gasolina/alcool)
     else {alert("Valor invalido! Por favor, digite um novo valor!") + console.log(funcao_c())}
-// Seta parseFloat nas variáveis gasolina e alcool e toran divisao em BRL.
+// Seta parseFloat nas variáveis gasolina e alcool.
 var gasolina = parseFloat(gasolina);
 var alcool = parseFloat(alcool);
+//
 var resultado = divisao
 // Informa os valores digitados da gasolina e do álcool.    
 var valores = alert(`Os valores informados foram 
