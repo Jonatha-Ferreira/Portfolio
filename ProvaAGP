@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+Scanner entrada = new Scanner(System.in);
+
+public class SomarNumerosPares{
+ static void main(String[] args) {
+   System.out.println('Digite um valor para o vetor: ' + entrada);
+
+   int TamanhoVet = entrada.nextInt;
+
+   int[] Vetor = new int[TamanhoVet];
+   
+   for(i=0; i<=Vetor.length; i++) {
+        System.out.println('Digite um valor para o indice' +i-1+ 'do vetor! ');
+        int ValorIndice = entrada.nextInt;
+        Vetor[i-1]  =  ValorIndice;
+   }
+    System.out.println('O valor da soma dos números pares contidos no vetor é ' + CalcularSomaPares(Vetor) + entrada.close());
+ }
+
+ static int[] CalcularSomaPares(int[] vet) {
+  for(int i=0; i<=Vetor.length; i++) {
+    if (vet[i-1] %2 == 0) {
+       int[] V = new int[Vetor.length];
+       V[i-1] = vet[i-1]; 
+       int resultado = new int(0)     
+        if (resultado == 0) { resultado = V[0] + V[1];
+            } if else (i < Vetor.length) {NovoResualtado = resultado + V[i+1]; }
+    };
+   }
+  }
+return NovoResualtado;
+ }
+}
